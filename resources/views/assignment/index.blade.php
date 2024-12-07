@@ -32,7 +32,7 @@
 
                 <!-- Right Side Image (only visible on larger screens) -->
                 <div class="col-sm-6 px-0 d-none d-sm-block">
-                    <img src="{{ url('Assets/frame 98699.png') }}" alt="Login Image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+                    <img src="{{ asset('Assets/frame 98699.png') }}" alt="Login Image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
                 </div>
             </div>
         </div>
