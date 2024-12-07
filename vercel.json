@@ -6,6 +6,14 @@
     },
     "routes": [
         {
+            "src": "/Assets/(.*)",
+            "dest": "/public/Assets/"
+        },
+        {
+            "src": "/css/(.*)",
+            "dest": "/public/css/"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
