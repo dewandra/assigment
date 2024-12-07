@@ -1,0 +1,38 @@
+{
+    "version": 2,
+    "framework": null,
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.7.1" }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://yourprojectdomain.com",
+        "APP_KEY": "base64:CXvErcUg8hQ00+j1WONP6VFKeG4c3Mfh3YDBkOqLyM4=",
+
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie",
+
+        "DB_CONNECTION": "pgsql",
+        "DB_HOST":"pg-172d621e-samasamaolahraga-d397.i.aivencloud.com",
+        "DB_PORT":"24322",
+        "DB_DATABASE":"defaultdb",
+        "DB_USERNAME":"avnadmin",
+        "DB_SCHEMA":"public"
+    },
+    "outputDirectory": "public"
+}
